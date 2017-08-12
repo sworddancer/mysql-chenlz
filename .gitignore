@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/atlassian-ide-plugin.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/mysql-chenlz.iml
+.idea/workspace.xml
+data/

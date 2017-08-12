@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    db:
+        image: mysql
+        volumes:
+            - "./data/mysql-chenlz/mysql:/var/lib/mysql"
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: chenlz
+            MYSQL_USER: chenlz
+            MYSQL_PASSWORD: chenlz
+        ports:
+            - "13306:3306"
